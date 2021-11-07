@@ -550,7 +550,9 @@ body{
 }
 
 @media screen and (max-width: 400px) {
-    
+    .hero-text > h1{
+        font-size:2.8rem;
+    }
     .search-bar > input{
         padding-left: 0;
 
@@ -563,7 +565,7 @@ body{
         font-size: 1.4rem;
     }
       .hero{
-        height: 90vh;
+        height: 80vh;
     }
 }
 
