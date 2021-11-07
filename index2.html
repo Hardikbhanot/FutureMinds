@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Future Minds</title>
+    <style>
+        .course-caraousel{
+            width: 65%;
+        }
+        .carousel-inner {
+  padding: 1em;
+}
+.slider-button{
+    background-color: #71EFDA!important;
+    opacity: 1;
+}
+.slider-button > i{
+    color: darkgreen;
+    font-size: 1.3rem;
+}
+.c_card {
+  margin: 0 0.5em;
+  box-shadow: 0 -2px 30px 0 rgb(18 113 255 / 17%);
+    -webkit-box-shadow: 0 -2px 30px 0 rgb(18 113 255 / 17%);
+  border: none;
+  width: 15rem;
+  border-radius: 7% 7% 3% 3%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 1100px) {
+    .course-caraousel{
+            width: 85%;
+        }
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+/* .card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ 
+
+.card img {
+    height: 190px;
+      max-width: 15rem;
+      width: 100%;
+      border-radius: 6.9% 6.9% 0 0;
+}
+@media (max-width: 767px) {
+  /* .card .img-wrapper {
+    height: 17em;
+  } */
+}
+    </style>
+  </head>
+  <body>
+    
+
+    <navbar>
+        <!-- <div class="container"> -->
+            
+                <nav>
+                    <div class="burger">
+                    
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="logo"><a href="#"><img src="logo.png" alt=""></a></div>
+                    <ul class="nav-links">
+                        
+                        <li ><a href="">Academy</a></li>
+                        <li><a href="">Step-Degree</a></li>
+                        <li><a href="">Courses</a></li>
+                        <button class="btn btn-primary">Sign in</button>
+                    </ul>
+                </nav>
+              </div>
+        
+    </navbar>
+
+   <div class="hero">
+       <div class="hero-text">
+           <h1>
+               Build Skills With Experts Any Time, Anywhere
+           </h1>
+           <div class="search-bar">
+                <label><i class="fi fi-rr-Search"></i></label>
+               <input type="text" placeholder="What do you want to learn?">
+               <button class="btn btn-primary"><i class="flaticon-search"></i>Explore</button>
+           
+           </div>
+           
+           <ul>
+               <li><span>Trending</span></li>
+               <li><a href="">Python-AI/ML</a></li>
+               <li><a href="">Full Stack Development</a></li>
+               <li><a href="">UI/UX Designing</a></li>
+               
+           </ul>
+       </div>
+       <div class="hero-right">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_7fy2yzzs.json"  background="transparent"  speed="1"  style="width:100% ; height: 100%;"  loop  autoplay></lottie-player>
+       </div>
+   </div>
+
+    <div class="second-sec">
+        <div class="sec-cards">
+            <div class="card">
+                <h2>Live Classes</h2>
+                <div class="line"></div>
+                <p>Better learning and Understanding through live interactions with experts.</p>
+            </div>
+            <div class="card">
+                <h2>Expert Mentors</h2>
+                <div class="line2"></div>
+                <p>Learn from renowned subject expert Corporate Stalwarts & Academicians.</p>
+            </div>
+            <div class="card">
+                <h2>Career Gateway</h2>
+                <div class="line3"></div>
+                <p>Hands on experience through assured Internships and get Job opportunities</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="courses">
+        <div class="courses-left">
+            <h2>Our <span>Popular</span> Courses</h2>
+            <p>Explore our courses and open the gateway to a bright career, So start learning now ! We promise you'll be the winner always!</p>
+            <a href="">VIEW ALL COURSES</a>
+            
+        </div>
+    <!-- <div class="course-caraousel"> -->
+    <div  id="carouselExampleControls" class="carousel course-caraousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card c_card carousel-item active">  
+                    <img src="digitalMarketing.png" class="img-fluid"  alt="course image" />
+                    <div class="card-body">
+                      <div class="card-text">
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text">
+                       Course timings <br>
+                       Charges <br>
+                       
+                      </p>
+                      </div>
+                       <br>
+                       <div class="card-button">
+                           View Course <i class="fas fa-arrow-right"></i>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card c_card carousel-item active">  
+                    <img src="graphic.png" class="img-fluid"  alt="course image" />
+                    <div class="card-body">
+                      <div class="card-text">
+                      <h5 class="card-title">Graphic Designing</h5>
+                      <p class="card-text">
+                       Course timings <br>
+                       Charges <br>
+                       
+                      </p>
+                      </div>
+                       <br>
+                       <div class="card-button">
+                           View Course <i class="fas fa-arrow-right"></i>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card c_card carousel-item active">  
+                    <img src="aiml.png" class="img-fluid"  alt="course image" />
+                    <div class="card-body">
+                      <div class="card-text">
+                      <h5 class="card-title">Python- AI/ML</h5>
+                      <p class="card-text">
+                       Course timings <br>
+                       Charges <br>
+                       
+                      </p>
+                      </div>
+                       <br>
+                       <div class="card-button">
+                           View Course <i class="fas fa-arrow-right"></i>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card c_card carousel-item active">  
+                    <img src="webd.png" class="img-fluid"  alt="course image" />
+                    <div class="card-body">
+                      <div class="card-text">
+                      <h5 class="card-title">Web Development</h5>
+                      <p class="card-text">
+                       Course timings <br>
+                       Charges <br>
+                       
+                      </p>
+                      </div>
+                       <br>
+                       <div class="card-button">
+                           View Course <i class="fas fa-arrow-right"></i>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card c_card carousel-item active">  
+                    <img src="appd.png" class="img-fluid"  alt="course image" />
+                    <div class="card-body">
+                      <div class="card-text">
+                      <h5 class="card-title">Android  Development</h5>
+                      <p class="card-text">
+                       Course timings <br>
+                       Charges <br>
+                       
+                      </p>
+                      </div>
+                       <br>
+                       <div class="card-button">
+                           View Course <i class="fas fa-arrow-right"></i>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div class="card c_card carousel-item active">  
+                    <img src="python.png" class="img-fluid"  alt="course image" />
+                    <div class="card-body">
+                      <div class="card-text">
+                      <h5 class="card-title">Python Bootcamp</h5>
+                      <p class="card-text">
+                       Course timings <br>
+                       Charges <br>
+                       
+                      </p>
+                      </div>
+                       <br>
+                       <div class="card-button">
+                           View Course <i class="fas fa-arrow-right"></i>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev slider-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next slider-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <i class="fas fa-chevron-right"></i>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+
+    <div class="highlights">
+        <h1>Highlights</h1>
+        <div class="high-cards">
+        <div class="card">
+            <div class="card-top">
+                <div class="heading">
+                    <h4>0%</h4>
+                    <span>Interest on EMI</span>
+                </div>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, sjkhd </li>
+                    <li>Lorem ipsum dolor sit amet, sjkhd</li>
+                    
+                </ul>
+            </div>
+            <div class="card-bottom">
+                <p>Lorem ipsum dolor sit amet, sjkhd </p>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-top-2">
+                <div class="heading-2">
+                    <h4>100%</h4>
+                    <span>Refund Policy</span>
+                </div>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, sjkhd </li>
+                    <li>Lorem ipsum dolor sit amet, sjkhd</li>
+                    
+                </ul>
+            </div>
+            <div class="card-bottom">
+                <p>Lorem ipsum dolor sit amet, sjkhd </p>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="heading-3">
+                Refer & Get Free Course
+                </div>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, sjkhd </li>
+                    <li>Lorem ipsum dolor sit amet, sjkhd</li>
+                    
+                </ul>
+            </div>
+            <div class="card-bottom">
+                <p>Lorem ipsum dolor sit amet, sjkhd </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+            var multipleCardCarousel = document.querySelector(
+    "#carouselExampleControls"
+    );
+    if (window.matchMedia("(min-width: 768px)").matches) {
+    var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+        interval: false,
+    });
+    var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+    var cardWidth = $(".carousel-item").width();
+    var scrollPosition = 0;
+    $("#carouselExampleControls .carousel-control-next").on("click", function () {
+        if (scrollPosition < carouselWidth - cardWidth * 4) {
+        scrollPosition += cardWidth;
+        $("#carouselExampleControls .carousel-inner").animate(
+            { scrollLeft: scrollPosition },
+            600
+        );
+        }
+    });
+    $("#carouselExampleControls .carousel-control-prev").on("click", function () {
+        if (scrollPosition > 0) {
+        scrollPosition -= cardWidth;
+        $("#carouselExampleControls .carousel-inner").animate(
+            { scrollLeft: scrollPosition },
+            600
+        );
+        }
+    });
+    } else {
+    $(multipleCardCarousel).addClass("slide");
+    }
+    </script>
+    <script>
+        const burger=document.querySelector(".burger")
+const navlinks=document.querySelector(".nav-links")
+const links= document.querySelectorAll(".nav-links li")
+const nav= document.querySelector("nav")
+// const join=document.querySelector(".heading > .contain > a > span")
+// const footer= document.querySelector(".footer")
+burger.addEventListener('click',()=>{
+    navlinks.classList.toggle("open")
+    nav.classList.toggle("open")
+    links.forEach(link=>{
+        link.classList.toggle("fade")
+    })
+})
+
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
