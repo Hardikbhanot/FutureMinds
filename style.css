@@ -562,9 +562,8 @@ body{
     .heading-2 > span{
         font-size: 1.4rem;
     }
-}
-@media screen and (max-width: 380px) {
-    .hero{
-        height: 70vh;
+      .hero{
+        height: 80vh;
     }
 }
+
